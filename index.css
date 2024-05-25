@@ -11,6 +11,7 @@ header{
     justify-content: space-between;
     height: 50px;
     align-items: center;
+    /* position: relative; */
 }
 header .nav a{
     color: white;
@@ -28,7 +29,24 @@ header .nav a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 10px 0; */
 }
+/*
+.nav2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; 
+    background-color: white;
+    padding: 10px 0; 
+  }
+  */
 .nav2 .btn{
     border: 3px solid transparent;
     background: none;
@@ -121,11 +139,72 @@ header .nav a{
      background-image: url(https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/bg3.jpg);
      height: 600px;
      background-position: bottom;
+     
+}
+.about .container{
+    margin-right: 150px;
+    padding-top: 100px;
 }
 .about .container .row .col{
     padding: 20px;
+  
+    
 }
 .custom-col {
     flex: 0 0 20%; /* Đặt chiều rộng mỗi cột là 20% */
     max-width: 20%; /* Giới hạn chiều rộng tối đa của mỗi cột là 20% */
-  }
+}
+
+.about .container .row .d-flex{
+    /* position: absolute; */
+    padding: 20px;
+    background-color: azure;
+    border-radius: 20px;
+}
+.about .container .row .col .left i{
+    font-size: 40px;
+    padding: 10px;
+    color: blue;
+    background-color: rgb(175, 175, 209);
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.about .container .row p{
+    font-size: 20px;
+}
+/* LIST  */
+.list{
+    margin-top: 100px;
+}
+.list .container .title{
+    font-size: 20px;
+    padding: 20px 0 50px;
+}
+.list .container .row .bo{
+    border-right: 1px solid gray;
+}
+
+/* student  */
+
+.student .item{
+    box-shadow: 0 20px 62px wheat;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.student .item .content{
+    padding: 15px;
+}
+.student .item .content i{
+    color: orangered;
+
+}
+.student .item .content p{
+    letter-spacing: 2;
+    font-size: 15px;
+}
+.student .item .content img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
