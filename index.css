@@ -208,3 +208,116 @@ header .nav a{
     border-radius: 50%;
     margin-right: 10px;
 }
+/* word  */
+.world{
+    margin-top: 150px;
+}
+.world .d-flex .item{
+    margin: 0 20px;
+}
+.world .d-flex .item{
+    border-radius: 10px;
+    box-shadow: 0 20px 60px wheat;
+}
+.world .d-flex .item .content{
+    padding: 10px;
+}
+
+/* note  */
+
+.note{
+    margin-top: 100px;
+}
+.note .col-7{
+    text-align: left;
+    margin-left: 150px;
+   
+}
+.note .col-7 h2{
+    width: 80%;
+    font-size: 35px;
+}
+.note .col-7 p{
+    font-size: 20px;
+    color: gray;
+    margin: 40px 0;
+}
+.note .col-7 button{
+    padding: 15px 30px;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    border: none;
+    transition: all .5s;
+}
+.note .col-7 button:hover{
+    background-color: blue;
+}
+
+
+/* footer  */
+footer{
+    margin-top: 200px;
+    position: relative;
+}
+footer .top{
+   
+    left: 20px;
+    z-index: 10;
+    
+}
+footer .content{
+    padding: 50px;
+    
+     position: absolute;
+    top: -150px;
+    left: 180px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    
+
+    
+
+}
+footer .sub{
+    
+}
+footer .sub .text h2{
+    font-size: 50px;
+}
+footer .sub .text p{
+    color: gray;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+footer .sub input{
+    padding: 15px 60px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+footer .sub button{
+    padding: 15px 15px;
+    background-color: blue;
+    color: white;
+}
+.bt {
+    background-color: black;
+    padding: 200px 0;
+    
+}
+.end .item h4{
+    color: white;
+}
+.end .item ul{
+    padding-left: 0;
+}
+.end .item ul li{
+    list-style: none;
+    text-align: left;
+    color: white;
+    margin: 20px 0;
+}
+.end .item a{
+    text-decoration: none;
+    color: white;
+}
